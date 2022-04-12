@@ -1,0 +1,54 @@
+.body
+{
+    margin: 0px;
+    border: 1px solid black;
+}
+.grid2
+{
+    height: 80vh;
+    display: grid;
+    grid-template-areas: 
+    "cabecalho corpo artigos"
+    "cabecalho corpo artigos"
+    "conteudo corpo artigos"
+    "rodape rodape rodape";
+    grid-template-columns: 1fr 2fr 1fr;
+    grid-template-rows: 1fr 2fr 1fr;
+    gap: 10px;
+    
+}
+.cabecalho
+{
+    border: solid 1px black;
+    grid-area: cabecalho;
+    background-color: blue;
+    color: blue;
+}
+.corpo
+{
+    border: solid 1px black;
+    grid-area: corpo;
+    background-color: blueviolet;
+    color: blueviolet;
+}
+.artigos
+{
+    border: solid 1px black;
+    grid-area: artigos;
+    background-color: brown;
+    color: brown;
+}
+.conteudo
+{
+    border: solid 1px black;
+    grid-area: conteudo;
+    background-color: chartreuse;
+    color: chartreuse;
+}
+.rodape
+{
+    border: solid 1px black;
+    grid-area: rodape;
+    background-color: aqua;
+    color: aqua;
+}
